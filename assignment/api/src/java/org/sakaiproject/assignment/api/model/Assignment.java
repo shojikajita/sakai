@@ -162,7 +162,7 @@ public class Assignment {
     private Set<String> attachments = new HashSet<>();
 
     @Enumerated(value = EnumType.STRING)
-    @Column(name = "ACCESS", nullable = false)
+    @Column(name = "\"ACCESS\"", nullable = false)
     private Access access = Access.SITE;
 
     @Column(name = "HONOR_PLEDGE")
